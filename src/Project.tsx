@@ -6,27 +6,29 @@ import { Card } from "./components/ui/card"
 
 
 const projects = [
+  
+  
   {
-    name:"Mr-Habbit",
-    description:"Habbit tracking using Heatmaps ",
-    codebase:"https://github.com/prashxant/Mr-habbit",
-    live:"https://mr-habbit.vercel.app/"
-  },
-  {
+    name:"Boogymen",
+    description:"Hostel Delivery System",
+    codebase:"https://github.com/prashxant/Boogymen-but-better",
+    live:"https://boogymen.netlify.app/"
+  },{
     name:"Planner-Al",
     description:"Planning trips using AI",
     codebase:"https://github.com/prashxant/Planner-Al",
     live:"https://planner-al.vercel.app/"
   },{
+    name:"Mr-Habbit",
+    description:"Habbit tracking using Heatmaps ",
+    codebase:"https://github.com/prashxant/Mr-habbit",
+    live:"https://mr-habbit.vercel.app/"
+  },
+  ,{
     name:"Scribe-AI",
     description:"Note making AI app",
     codebase:"https://github.com/prashxant/Scribe-AI",
     live:"https://github.com/prashxant/Scribe-AI"
-  },{
-    name:"Boogymen",
-    description:"Hostel Delivery System",
-    codebase:"https://github.com/prashxant/Boogymen-but-better",
-    live:"https://boogymen.netlify.app/"
   },{
     name:"Aquafine",
     description:"Fish estimation using AI-ML", 
