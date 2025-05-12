@@ -2,11 +2,7 @@ import { Card } from "./components/ui/card"
 
 
 
-
-
-
 const projects = [
-  
   
   {
     name:"Boogymen",
@@ -14,7 +10,7 @@ const projects = [
     codebase:"https://github.com/prashxant/Boogymen-but-better",
     live:"https://boogymen.netlify.app/"
   },{
-    name:"Planner-Al",
+    name:"Planner-Al" ,
     description:"Planning trips using AI",
     codebase:"https://github.com/prashxant/Planner-Al",
     live:"https://planner-al.vercel.app/"
@@ -23,7 +19,7 @@ const projects = [
     description:"Habbit tracking using Heatmaps ",
     codebase:"https://github.com/prashxant/Mr-habbit",
     live:"https://mr-habbit.vercel.app/"
-  },
+  }
   ,{
     name:"Scribe-AI",
     description:"Note making AI app",

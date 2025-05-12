@@ -7,7 +7,7 @@ import Footer from "./Footer"
 function MainCard() {
   return (
     <div >
-        <Card className="rounded-sm mt-2 bg-zinc-900 border-zinc-800 border-2 text-col-yel" >
+        <Card className="rounded-sm mt-2 mx-[10vw] bg-zinc-900 border-zinc-800 border-2 text-col-yel" >
           <Intro/>
           <GithubHeatmap />
           <Project />
