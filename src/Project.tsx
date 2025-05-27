@@ -35,8 +35,8 @@ const projects = [
 
 function Project() {
 	return (
-		<div className="m-4 pl-8">
-			<span className="font-bold text-3xl sm:text-4xl block text-center sm:text-left">
+		<div className="m-4  ">
+			<span className="font-bold text-3xl  sm:text-4xl block text-center sm:text-left">
 				Projects
 			</span>
 			{projects.map(
