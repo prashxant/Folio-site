@@ -44,8 +44,8 @@ function Footer() {
   return (
     <footer className="mt-10 text-center text-zinc-600">
       <div className="h-px bg-zinc-800 mx-auto max-w-[600px] mb-6" />
-      <div className="flex justify-center gap-6 mb-4">
-      {socialLinks.map(({ name, href, icon }) => (
+      <div className="flex flex-wrap justify-center gap-6 mb-4">
+        {socialLinks.map(({ name, href, icon }) => (
           <a
             key={name}
             href={href}
@@ -59,8 +59,8 @@ function Footer() {
           </a>
         ))}
       </div>
-      <p>© 2025 Prashant Sharma. All rights reserved.</p>
-      <p className="mt-2 text-col-yel">Made with ❤️ by Prashant Sharma</p>
+      <p className="text-sm md:text-base">© 2025 Prashant Sharma. All rights reserved.</p>
+      <p className="mt-2 text-sm md:text-base text-col-yel">Made with ❤️ by Prashant Sharma</p>
     </footer>
   )
 }
