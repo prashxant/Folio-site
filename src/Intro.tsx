@@ -1,20 +1,29 @@
-
 function Intro() {
   return (
-    <div>
-        <div className="flex justify-between">
-           <span className="mt-15 ml-5 ">
-            <p className="font-bold text-4xl ">Prashant Sharma </p> 
-           <p className="py-1 opacity-50">Trying to understand why tech is so facinating</p>
-           </span>
-            <img className="h-50   mr-5 border-1 rounded-full" src="./fevicon 1-modified.png" alt="" />
-        </div>
-        <div >
-            <p className="font-bold text-4xl ml-5 ">Proof of Work</p>
-            <p className="py-1 opacity-50  ml-5 ">Stuff I tried to build and learn till now</p>
-        </div>
+    <div className="px-4 sm:px-6 md:px-8 lg:px-12">
+      <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start">
+        <span className="mt-4 sm:mt-0 sm:ml-5 text-center sm:text-left">
+          <p className="font-bold text-3xl sm:text-4xl">Prashant Sharma</p>
+          <p className="py-1 opacity-50 text-sm sm:text-base">
+            Trying to understand why tech is so fascinating
+          </p>
+        </span>
+        <img
+          className="h-24 w-24 sm:h-32 sm:w-32 mt-4 sm:mt-0 mr-0 sm:mr-5 border rounded-full"
+          src="./fevicon 1-modified.png"
+          alt="Profile"
+        />
+      </div>
+      <div className="mt-6">
+        <p className="font-bold text-2xl sm:text-3xl ml-0 sm:ml-5 text-center sm:text-left">
+          Proof of Work
+        </p>
+        <p className="py-1 opacity-50 text-sm sm:text-base ml-0 sm:ml-5 text-center sm:text-left">
+          Stuff I tried to build and learn till now
+        </p>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Intro
+export default Intro;
